@@ -1,0 +1,209 @@
+body {
+  background: whitesmoke;
+}
+form {
+  margin: 0 auto;
+}
+
+.weatherApp {
+  border: 1px solid #212529;
+  padding: 30px 20px 20px 40px;
+  margin: 30px;
+  margin-top: 10px;
+  width: 645px;
+  height: 400px;
+  border-radius: 12px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(255, 221, 225) 11.2%,
+    rgb(255, 255, 255) 92.2%
+  );
+}
+
+.search {
+  border: 0.7px solid;
+  border-radius: 13px;
+  padding: 8px;
+  inline-size: 180px;
+  font-weight: 200;
+  font-size: 22px;
+  text-align: center;
+  position: relative;
+  top: -3px;
+  left: -11px;
+  text-align: center;
+  font-weight: 200;
+  color: black;
+}
+
+.btn.btn-dark {
+  position: relative;
+  top: -7px;
+  left: -22px;
+  border-radius: 13px;
+  padding: 12px;
+  background-color: #212529;
+  color: #e8dec9;
+  border-color: rgb(59, 58, 58, 0.7);
+}
+
+.city {
+  line-height: 56px;
+  font-size: 42px;
+  font-weight: 300;
+  margin-top: -40px;
+}
+#tempMain {
+  font-size: 52px;
+  line-height: 50px;
+  font-weight: 300;
+  position: relative;
+  top: -61px;
+}
+.highLow {
+  color: rgb(247, 49, 49);
+  font-weight: 100;
+  font-size: 20px;
+  position: relative;
+  top: -20px;
+}
+
+.fa-arrow-up-long,
+.fa-arrow-down-long {
+  font-size: 16px;
+  opacity: 0.8;
+  position: relative;
+  top: -20px;
+}
+
+.feelsLike {
+  font-weight: 200;
+  position: relative;
+  font-size: 14px;
+  top: -80px;
+}
+
+#humidity,
+.humidity,
+#wind,
+.wind {
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.humidity {
+  position: relative;
+  top: -24px;
+}
+
+.wind {
+  position: relative;
+  top: -28px;
+}
+
+.moreInfo {
+  position: relative;
+  top: -32px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.upcoming {
+  margin-top: -13px;
+  margin-left: 51px;
+  line-height: 56px;
+  font-weight: 200;
+  font-size: 24px;
+  position: relative;
+  top: -308px;
+}
+
+ul {
+  position: relative;
+  top: -269px;
+  right: -259px;
+}
+
+li {
+  list-style: none;
+  line-height: 48px;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.temperature {
+  line-height: 48px;
+  float: right;
+}
+
+.fa-location-dot {
+  position: relative;
+  left: -180px;
+  top: -5px;
+}
+
+.iconDay {
+  position: relative;
+  font-size: 30px;
+}
+.fa-cloud-sun {
+  left: 48px;
+  top: -1px;
+}
+
+.fa-cloud-rain {
+  left: 75px;
+  top: 3px;
+}
+.fa-sun {
+  left: 67px;
+  top: 1px;
+}
+
+#iconMain {
+  font-size: 53px;
+  padding: 10px;
+  position: relative;
+  left: 170px;
+  top: 9px;
+}
+
+.choice {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  line-height: 48px;
+  font-weight: 200;
+  font-size: 22px;
+  top: -72px;
+  right: -349px;
+}
+
+.vertical-line {
+  width: 0px;
+  height: 81%;
+  float: left;
+  border: 1px inset;
+  position: relative;
+  top: -315px;
+  left: 295px;
+  color: black;
+}
+
+#hourDate {
+  position: relative;
+  top: -390px;
+  right: -473px;
+  font-weight: 200;
+  opacity: 0.8;
+}
+#current-city-button {
+  position: relative;
+  top: -61px;
+  left: 176px;
+  border-radius: 13px;
+  padding: 12px;
+  background-color: #212529;
+  color: #e8dec9;
+  border-color: rgb(59, 58, 58, 0.7);
+}

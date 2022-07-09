@@ -208,8 +208,11 @@ li {
   border-color: rgb(59, 58, 58, 0.7);
 }
 
-footer,
-#gitHubLink {
+.gitLink {
   color: #212529;
-  font-weight: 200;
+  font-weight: 100;
+  font-size: 16px;
+  position: relative;
+  top: -238px;
+  left: 147px;
 }

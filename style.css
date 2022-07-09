@@ -216,3 +216,9 @@ li {
   top: -238px;
   left: 147px;
 }
+
+#gitHubLink {
+  color: #212529;
+  font-weight: 100;
+  font-size: 16px;
+}

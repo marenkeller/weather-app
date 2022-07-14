@@ -47,7 +47,7 @@ form {
   border-color: rgb(59, 58, 58, 0.7);
 }
 
-.city {
+#city-h1 {
   line-height: 56px;
   font-size: 42px;
   font-weight: 300;
@@ -58,7 +58,8 @@ form {
   line-height: 50px;
   font-weight: 300;
   position: relative;
-  top: -61px;
+  top: -25px;
+  left: -121px;
 }
 .highLow {
   color: rgb(247, 49, 49);
@@ -109,7 +110,7 @@ form {
 }
 
 .upcoming {
-  margin-top: -13px;
+  margin-top: 22px;
   margin-left: 51px;
   line-height: 56px;
   font-weight: 200;
@@ -160,23 +161,22 @@ li {
   top: 1px;
 }
 
-#iconMain {
+#main-icon {
   font-size: 53px;
   padding: 10px;
   position: relative;
   left: 170px;
-  top: 9px;
+  top: -55px;
 }
 
-.choice {
-  text-decoration: none;
-  color: black;
+#celcius,
+#fahrenheit {
   position: relative;
   line-height: 48px;
   font-weight: 200;
   font-size: 22px;
   top: -72px;
-  right: -349px;
+  right: -354px;
 }
 
 .vertical-line {
@@ -185,12 +185,12 @@ li {
   float: left;
   border: 1px inset;
   position: relative;
-  top: -315px;
+  top: -289px;
   left: 295px;
   color: black;
 }
 
-#hourDate {
+#date {
   position: relative;
   top: -390px;
   right: -473px;
@@ -221,4 +221,10 @@ li {
   color: #212529;
   font-weight: 100;
   font-size: 16px;
+}
+
+.active {
+  cursor: default;
+  color: black;
+  text-decoration: none;
 }

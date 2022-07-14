@@ -22,52 +22,41 @@
   <body>
     <div class="container">
       <div class="weatherApp">
-      <form id="search-bar">
-        <input class="search" type="search" id="city-input" placeholder="search city" autofocus="on"> <i class="fa-solid fa-location-dot"></i>
-        <button type="submit" class="btn btn-dark"><i class="fa-solid fa-magnifying-glass"></i></button></i> </i>
-      </form>
-      <span> <a class="choice" id="celcius" href="..."> °C  </a>
-<a class="choice" id="fahrenheit" href="..."> °F </a></span>
-     <button    class="btn btn-dark" id="current-city-button">My Location</button>
+      <form id="search-form">
+<input class="search" type="search" id="city-input" placeholder="search city" autofocus="on"> <i class="fa-solid fa-location-dot"></i>
+<button type="submit" class="btn btn-dark"><i class="fa-solid fa-magnifying-glass"></i></button></i> </i>
+</form>
+
+<a class="active" id="celcius" href="#"> °C  </a>
+<a class="active" id="fahrenheit" href="#"> °F </a>
+
+<button class="btn btn-dark" id="current-city-button">My Location</button>
 <div class="row">
-        <div class="col-6">
-          <h1 class="city" id="city-h1"> OSLO </h1>
-          <h4><i class="fa-solid fa-sun main" id="iconMain"></i></h4>
-        
-<span id="tempMain">  <span 
-          class="temperatureMain" id="temperatureMain"></span> °C </span>
-
-          <br />
-
-          <span <i class="fa-solid fa-arrow-up-long highLow"></i> <span id="max-temp">  </span> °C  </span>
-           <span <i class="fa-solid fa-arrow-down-long highLow"></i> <span = id="min-temp">  </span> °C  </span>
-
-          <br />
-          
-          <span  class="feelsLike"> Feels like <span
-       id="feels-like">
-          </span> °C </span>
-         <br />
-         
-               <span class="humidity"> Humidity <span
-       id="humidity">
-          </span> % </span>
-                    <br />
-                         <span class="wind"> Wind <span
-       id="wind">
-          </span> km/h </span>
-                         <br />
-            <span class="moreInfo" id="description">
-          </span>
-        </div>
+<div class="col-6">
+<h1 class="city" id="city-h1"> OSLO </h1>
+<img src="#" id="main-icon"></img>
+<span id="tempMain"> <span class="temperatureMain" id="temperature-main"></span> °C </span>
+ <br />
+<span <i class="fa-solid fa-arrow-up-long highLow"></i> <span id="max-temp">  </span> °C  </span>
+<span <i class="fa-solid fa-arrow-down-long highLow"></i> <span = id="min-temp">  </span> °C  </span>
+<br />          
+<span  class="feelsLike"> Feels like <span id="feels-like"> </span> °C </span>
+ <br />       
+<span class="humidity"> Humidity <span  id="humidity"> </span> % </span>
+<br />
+ <span class="wind"> Wind <span id="wind">
+</span> km/h </span>
+<br />
+ <span class="moreInfo" id="description">
+</span>
 </div>
-
+</div>
 <div class="vertical-line"></div>
 
 
 
         <div class="col-6">
-          <span id="hourDate" placeholder="display of current time and date">what, when</span>
+          <span id="date" placeholder="display of current time and date">what, when</span>
         <ul class="upcoming"> 
             <li>
                 tues <i class="fa-solid fa-cloud-sun iconDay"></i>

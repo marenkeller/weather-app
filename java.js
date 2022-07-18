@@ -25,7 +25,7 @@ let now = new Date();
 currentTime.innerHTML = formatDate(now);
 
 function showWeather(response) {
-  document.querySelector("#city-input").innerHTML = response.data.name;
+  document.querySelector("#city-h1").innerHTML = response.data.name;
 
   celciusTemp = response.data.main.temp;
 

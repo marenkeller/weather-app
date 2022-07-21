@@ -109,56 +109,14 @@ form {
   font-size: 14px;
 }
 
-.upcoming {
-  margin-top: 22px;
-  margin-left: 51px;
-  line-height: 56px;
-  font-weight: 200;
-  font-size: 24px;
-  position: relative;
-  top: -308px;
-}
-
-ul {
-  position: relative;
-  top: -269px;
-  right: -259px;
-}
-
-li {
-  list-style: none;
-  line-height: 48px;
-  font-weight: 200;
-  font-size: 20px;
-}
-
 .temperature {
   line-height: 48px;
-  float: right;
 }
 
 .fa-location-dot {
   position: relative;
   left: -180px;
   top: -5px;
-}
-
-.iconDay {
-  position: relative;
-  font-size: 30px;
-}
-.fa-cloud-sun {
-  left: 48px;
-  top: -1px;
-}
-
-.fa-cloud-rain {
-  left: 75px;
-  top: 3px;
-}
-.fa-sun {
-  left: 67px;
-  top: 1px;
 }
 
 #main-icon {
@@ -213,7 +171,7 @@ li {
   font-weight: 100;
   font-size: 16px;
   position: relative;
-  top: -238px;
+
   left: 147px;
 }
 
